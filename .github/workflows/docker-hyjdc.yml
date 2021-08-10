@@ -27,6 +27,6 @@ jobs:
         with:
           context: .
           file: ./docker/huayu-jdc/Dockerfile
-          platforms: linux/amd64
+          platforms: linux/amd64,linux/arm/v7,linux/arm64
           push: true
-          tags: yin26287903/qinglong-v:2.2-huayu-jdc
+          tags: 1687219868/qinglong-v:2.2-huayu-jdc
